@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_launcher"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/ob1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="左边进入" />
+
+    <Button
+        android:id="@+id/ob2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="右边进入" />
+
+    <Button
+        android:id="@+id/ob3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="一起向右移动" />
+
+    <Button
+        android:id="@+id/ob4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="一起向左移动" />
+    
+    <Button
+        android:id="@+id/ob5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="上面进入" />
+
+    <Button
+        android:id="@+id/ob6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下面进入" />
+
+    <Button
+        android:id="@+id/ob7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="一起向上移动" />
+
+    <Button
+        android:id="@+id/ob8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="一起向下移动" />
+
+</LinearLayout>

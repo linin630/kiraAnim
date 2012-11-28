@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View android:id="@+id/view"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:background="#d4d4d4"/>
+    <View android:id="@+id/view2"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:background="#223344"/>
+    <View android:id="@+id/view3"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:background="#55ff00"/>
+    <View android:id="@+id/view4"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:background="#2233ff"/>
+<LinearLayout 
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一个View" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上一个View" />
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="整个翻过去吧~" />
+
+</LinearLayout>
+<LinearLayout 
+    android:id="@+id/ll2"
+    android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设为垂直翻转" />
+    
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设为水平翻转" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继续翻~" />
+    
+</LinearLayout>
+<LinearLayout 
+    android:id="@+id/ll3"
+    android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#00ff00" >
+    
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上" />
+    
+    <LinearLayout android:orientation="horizontal" android:gravity="center"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button
+        android:id="@+id/button10" android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左" />
+        <Button
+        android:id="@+id/button11" android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="从头开始翻吧~" />
+    
+</LinearLayout>
+</RelativeLayout>

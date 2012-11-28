@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/v1" style="@style/cube_view" android:background="#d7d7d7"/>
+        <View android:id="@+id/v2" style="@style/cube_view" android:background="#456456"/>
+        <View android:id="@+id/v3" style="@style/cube_view" android:background="#ffd7d7"/>
+        <View android:id="@+id/v4" style="@style/cube_view" android:background="#12ff23"/>
+        <View android:id="@+id/v5" style="@style/cube_view" android:background="#1116ff"/>
+        <View android:id="@+id/v6" style="@style/cube_view" android:background="#7f7fff"/>
+        
+        <LinearLayout style="@style/cube_view" android:orientation="vertical" android:gravity="center">
+            <Button android:id="@+id/up" android:text="上" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout style="@style/cube_view" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+            	<Button android:id="@+id/left" android:text="左" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp"/>
+            	<Button android:id="@+id/right" android:text="右" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        	</LinearLayout>
+            <Button android:id="@+id/down" android:text="下" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>

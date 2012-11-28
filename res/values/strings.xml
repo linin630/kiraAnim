@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AnimActivity!</string>
+    <string name="app_name">Anim</string>
+    <string name="menu_overpendding">移动切换Activity动画效果</string>
+    <string name="menu_overpendding3d">翻转切换Activity动画效果</string>
+
+</resources>
