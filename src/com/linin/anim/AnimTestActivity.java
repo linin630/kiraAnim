@@ -28,7 +28,7 @@ public class AnimTestActivity extends Activity implements OnClickListener {
         text.setText("screen_w="+w+";screen_h="+h);
         
         KiraAnim ka=new KiraAnim(this);
-        ka.moveIn(KiraAnim.MODE_LEFT, 500, 250, R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5);
+        ka.moveIn(KiraAnim.MODE_LEFT, 500, 250, R.id.layout, this);
     }
     
     public void init(){
